@@ -558,4 +558,3 @@ For questions or feedback:
 Made with ❤️ and 🤖 for Indonesian NLP
 
 </div>
-```
