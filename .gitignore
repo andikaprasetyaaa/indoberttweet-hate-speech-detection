@@ -1,0 +1,14 @@
+# Abaikan file cache python
+__pycache__/
+*.pyc
+
+# Abaikan folder model jika ukurannya > 100MB
+model_indobertbase/
+model_indoberttweet/
+model_indoberttweet2/
+detection/
+
+# Abaikan virtual environment (jika ada)
+venv/
+env/
+.env
