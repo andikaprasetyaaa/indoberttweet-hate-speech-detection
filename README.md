@@ -547,6 +547,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions or feedback:
 
 - **Email**: andikaprasetyacomid@gmail.com.com
+             andhika.2205551136@student.unud.ac.id
+             riastha.2205551132@student.unud.ac.id
 - **Instagram**: https://www.instagram.com/diiicka?igsh=dXU0NHoxemJ0MTlu 
 
 ---
