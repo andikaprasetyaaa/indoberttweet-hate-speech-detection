@@ -61,33 +61,43 @@ This project implements a **state-of-the-art hate speech detection system** spec
 
 ## 📁 Project Structure
 ```
-DLClassifyRacist/
+DLCLASSIFYRACIST/
+│
+├── 📂 __pycache__/                     # Python cache files
 │
 ├── 📂 dataset/
-│   ├── dataset_label.json          # Raw labeled dataset
-│   └── dataset_processed.csv       # Preprocessed dataset with numeric labels
+│   ├── dataset_label.json              # Raw labeled dataset
+│   ├── dataset_processed.csv           # Processed dataset with numeric labels
+│   └── preprocessed_tweets.csv         # Cleaned and normalized tweets
 │
-├── 📂 models/
-│   ├── model_indobertbase/        # IndoBERT Base trained model
-│   └── model_indoberttweet/       # IndoBERTweet trained model
+├── 📂 preprocessing/                   # Text and label preprocessing utilities
 │
-├── 📂 notebooks/
-│   ├── convert_label.ipynb        # Label preprocessing notebook
-│   ├── read_dataset.ipynb         # Dataset exploration
-│   ├── detection_hate_speech_indobertbase.ipynb    # IndoBERT Base training
-│   ├── detection_hate_speech_indoberttweet.ipynb  # IndoBERTweet training
-│   └── prediction.ipynb           # Interactive prediction notebook
+├── 📂 detection/                       # (Currently empty / reserved)
 │
-├── 📂 api/
-│   ├── main.py                    # FastAPI backend server
-│   └── frontend.py                # Streamlit web interface
+├── 📂 model_indobertbase/               # Trained IndoBERT Base model
 │
-├── 📂 scripts/
-│   └── test_api.py                # API testing script
+├── 📂 model_indoberttweet/              # Trained IndoBERTweet model
 │
-├── 📄 requirements.txt            # Python dependencies
-├── 📄 README.md                   # This file
-└── 📄 .gitignore                  # Git ignore rules
+├── 📂 model_indoberttweet2/             # Fine-tuned IndoBERTweet model
+│   ├── config.json
+│   ├── model.safetensors
+│   ├── special_tokens_map.json
+│   ├── tokenizer_config.json
+│   ├── tokenizer.json
+│   └── vocab.txt
+│
+├── 📄 convert_label.ipynb               # Label conversion notebook
+├── 📄 read_dataset.ipynb                # Dataset exploration notebook
+├── 📄 detection_hate_speech_indobertbase.ipynb
+├── 📄 detection_hate_speech_indoberttweet.ipynb
+├── 📄 prediction.ipynb                  # Prediction 
+│
+├── 📄 main.py                           # FastAPI backend
+├── 📄 frontend.py                       # Streamlit frontend
+├── 📄 test_api.py                       # API testing script
+│
+├── 📄 .gitignore                        # Git ignore rules
+└── 📄 README.md                         # Project documentation
 ```
 
 ---
