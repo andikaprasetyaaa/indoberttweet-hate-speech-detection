@@ -373,7 +373,8 @@ curl -X POST "http://127.0.0.1:8000/predict" \
 
 ### Main Dashboard
 
-![Dashboard Screenshot](assets/dashboard.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0ae05d5-3edb-4b26-aa8e-eba8a39dbb86" />
+
 
 1. **Text Input**: Large text area for entering Indonesian text
 2. **Real-time Analysis**: Instant classification results
@@ -503,6 +504,7 @@ We welcome contributions! Please follow these steps:
 ## 📚 References
 
 - [IndoBERT Paper](https://arxiv.org/abs/2009.05387)
+- [IndoBERTTweet Paper](10.18653/v1/2020.coling-main.66)
 - [Hugging Face Transformers](https://huggingface.co/docs/transformers)
 - [FastAPI Documentation](https://fastapi.tiangolo.com/)
 - [Streamlit Documentation](https://docs.streamlit.io/)
@@ -534,9 +536,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or feedback:
 
-- **Email**: your.email@example.com
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
+- **Email**: andikaprasetyacomid@gmail.com.com
+- **Instagram**: https://www.instagram.com/diiicka?igsh=dXU0NHoxemJ0MTlu 
 
 ---
 
